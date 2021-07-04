@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+/*font-family: 'Source Sans Pro', sans-serif;*/
+h1,h2,h3,h4,h5,h6,p,a,input,button,span{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+
+
+/*Header Section Start*/
+
+
+.header{
+	padding: 16px 0;
+	border-bottom: 1px solid #eee;
+}
+.navbar{
+	display: flex;
+	justify-content: space-between;
+
+}
+.menu-item ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 14px;
+	line-height: 50px;
+	color: #0f2656;
+}
+/*Header Section End*/
+
+
+
+
+/*Banner Section Start*/
+
+.banner{
+	padding: 50px 0;
+	text-align: center;
+}
+.banner-item h1{
+	color: #0f2656;
+	font-size: 50px;
+	margin-bottom: 16px;
+}
+.banner-item span{
+	color: #008aff;
+}
+.banner-item p{
+	font-size: 16px;
+	line-height: 25px;
+	margin-bottom: 16px;
+}
+.banner-item img{
+	margin-bottom: 16px;
+}
+
+
+
+/*Banner Section End*/
+
+.project{
+	padding: 60px 0;
+}
+.project-item{
+	display: flex;
+}
+.left{
+	text-align: right;
+	margin-right: 16px;
+}
+.left h3{
+	font-size: 56px;
+	font-weight: 700;
+	color: #f15767;
+}
+.left p{
+	font-size: 16px;
+	font-weight: 300;
+	color: #0f2656;
+}
+.right{
+	margin-left: 16px;
+}
+.right h3{
+	font-size: 56px;
+	color: #0f2656;
+	font-weight: 700;
+}
+.left,.right{
+	flex-basis: 50%;
+}
+
+/*Project-item Start*/
+
+
+
+/*Project-item End*/
+
+/*Services Start*/
+
+.services{
+	padding: 40px 0 60px 0;
+}
+.service-item{
+	display: flex;
+	justify-content: space-around;
+}
+.item-1{
+	background: #fdebed;
+}
+.item-2{
+	background: #ebf9f4;
+}
+.item-3{
+	background: #fff7e8;
+}
+.item-1,.item-2,.item-3{
+	margin: 16px;
+	padding: 32px;
+}
+.service-item img{
+	margin-bottom: 16px;
+}
+.service-item h3{
+	color: #252f56;
+	font-size: 24px;
+	margin-bottom: 8px;
+
+}
+.service-item p{
+	color:#252f56;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 25px;
+}
+
+
+/*Services End*/
+
+
+/*Copyright Start*/
+.footer{
+	background: #008aff;
+	padding: 40px 0;
+	text-align: center;
+}
+.copyright p{
+	font-size: 15px;
+	color: #94d2ff;
+}
+.copyright span{
+	color: white;
+}
+/*Copyright End*/
